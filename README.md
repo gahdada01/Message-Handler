@@ -10,14 +10,14 @@
 
 # Create a simple REST API given the following documentation:
 
-## POST /message
+### POST /message
 
 An endpoint that accepts JSON request data with conversation_id and message properties.
 The response should be JSON data with response_id being the same as the request’s
 conversation_id, and the response would be based on the context table matching the
 message.
 
-Context Table:
+### Context Table:
 If the message contains a word from the context table, return the corresponding response.
 First context detected takes priority.
 
