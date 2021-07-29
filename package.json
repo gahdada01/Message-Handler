@@ -1,0 +1,19 @@
+{
+  "name": "station-five-backend-technical-exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha --exit"
+  },
+  "author": "Richard Vergis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.3",
+    "supertest": "^6.1.4"
+  }
+}
