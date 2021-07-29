@@ -27,16 +27,20 @@ First context detected takes priority.
 
 No Context => Sorry, I don't understand.
 
-Example Request:
+### Example Request:
+
 {
 conversation_id: 'abcd123',
 message: 'Hello, I’m John',
 }
 
-Example Response:
+### Example Response:
+
 {
 response_id: 'abcd123',
 response: 'Welcome to This API',
 }
 
-Note: Should return an error if the request data is not in the proper format.
+### Note: 
+
+Should return an error if the request data is not in the proper format.
